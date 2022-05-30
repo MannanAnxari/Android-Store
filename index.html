@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/icon.PNG" />
+    <title>m...Emmet</title>
+</head>
+
+<body>
+    <nav class="navbr">
+        <ul>
+            <li>
+                <a href="#home" class="dot active" scrol="home">
+                    <span>Home</span>
+                    <!-- Home -->
+                </a>
+            </li>
+            <li>
+                <a href="#sm" class="dot" scrol="product">
+                    <span>Product</span>
+                    <!-- Product -->
+                </a>
+            </li>
+            <li>
+                <a href="#reviews" class="dot" scrol="review">
+                    <span>Reviews</span>
+                    <!-- Reviews -->
+                </a>
+            </li>
+            <li>
+                <a href="#about" class="dot" scrol="about">
+                    <span>About</span>
+                    <!-- About -->
+                </a>
+            </li>
+            <li>
+                <a href="#contact" class="dot" scrol="contact">
+                    <span>Contact</span>
+                    <!-- Contact -->
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div id="main">
+        <div id="home" class="full-page">
+            <div class="navbar">
+                <div id="logo"><img src="images/logo.PNG" alt="" /></div>
+                <div id="box1"></div>
+                <div class="sl">Pre-Sale</div>
+                <div id="box2">
+                    <div id="text">
+                        SONY<br /> XPERIA 1 IV
+                    </div>
+                </div>
+                <nav id="nv">
+                    <ul id="MenuItems">
+                        <li>
+                            <button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'" style="width: auto">
+                  Login
+                </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="login-form" class="login-page">
+                <div class="form-box">
+                    <div class="button-box">
+                        <div id="btn"></div>
+                        <button type="button" onclick="login()" class="toggle-btn">
+                Log In
+              </button>
+                        <button type="button" onclick="register()" class="toggle-btn">
+                Register
+              </button>
+                    </div>
+                    <form id="login" class="input-group-login">
+                        <input type="text" class="input-field" placeholder="Email Id" required />
+                        <input type="password" class="input-field" placeholder="Enter Password" required />
+                        <input type="checkbox" class="check-box" /><span class="span">Remember Password</span
+              >
+              <button type="submit" class="submit-btn">Log in</button>
+            </form>
+            <form id="register" class="input-group-register">
+              <input
+                type="text"
+                class="input-field"
+                placeholder="First Name"
+                required
+              />
+              <input
+                type="text"
+                class="input-field"
+                placeholder="Last Name "
+                required
+              />
+              <input
+                type="email"
+                class="input-field"
+                placeholder="Email Id"
+                required
+              />
+              <input
+                type="password"
+                class="input-field"
+                placeholder="Enter Password"
+                required
+              />
+              <input
+                type="password"
+                class="input-field"
+                placeholder="Confirm Password"
+                required
+              />
+              <input type="checkbox" class="check-box" /><span class="span"
+                >I agree to the terms and conditions</span
+              >
+              <button type="submit" class="submit-btn">Register</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="buyBtn" style="width: 100%; height: 100%">
+        <button class="buy">BUY</button>
+        <div class="price"><strike>899$</strike> 749$</div>
+      </div>
+      <span class="colorRight"></span>
+                        <span class="colorLeft"></span>
+                </div>
+                <div class="section2" id="product">
+                    <h2 id="pr">PRODUCTS</h2>
+                    <div class="main-card-container">
+                        <!-- Samsung -->
+                        <div class="samsung">
+                            <div id="sm" class="sm">SAMSUNG</div>
+                            <div class="grid same">
+                                <div class="card">
+                                    <div class="imgBX">
+                                        <img src="images/product/samsung4.PNG" alt="" />
+                                    </div>
+                                    <div class="contentBX">
+                                        <h2>Galaxy S21+</h2>
+                                        <div class="rom">
+                                            <h3>Variant :</h3>
+                                            <span>64GB</span><span>128GB</span><span>256GB</span>
+                                        </div>
+                                        <div class="color">
+                                            <h3>Color :</h3>
+                                            <span></span><span></span><span></span>
+                                        </div>
+                                        <a href="#">Buy Now</a>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="imgBX">
+                                        <img src="images/product/samsung2.PNG" alt="" />
+                                    </div>
+                                    <div class="contentBX">
+                                        <h2>Galaxy Note 20</h2>
+                                        <div class="rom">
+                                            <h3>Variant :</h3>
+                                            <span>64GB</span><span>128GB</span><span>256GB</span>
+                                        </div>
+                                        <div class="color">
+                                            <h3>Color :</h3>
+                                            <span></span><span></span><span></span>
+                                        </div>
+                                        <a href="#">Buy Now</a>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="imgBX">
+                                        <img src="images/product/samsung1.PNG" alt="" />
+                                    </div>
+                                    <div class="contentBX">
+                                        <h2>Galaxy A32</h2>
+                                        <div class="rom">
+                                            <h3>Variant :</h3>
+                                            <span>64GB</span><span>128GB</span><span>256GB</span>
+                                        </div>
+                                        <div class="color">
+                                            <h3>Color :</h3>
+                                            <span></span><span></span><span></span>
+                                        </div>
+                                        <a href="#">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="google">
+                            <div id="sm" class="sm">GOOGLE</div>
+                            <div class="grid same">
+                                <div class="card">
+                                    <div class="imgBX">
+                                        <img src="images/product/google1.PNG" alt="" />
+                                    </div>
+                                    <div class="contentBX">
+                                        <h2>Pixel 6 Pro</h2>
+                                        <div class="rom">
+                                            <h3>Variant :</h3>
+                                            <span>64GB</span><span>128GB</span><span>256GB</span>
+                                        </div>
+                                        <div class="color">
+                                            <h3>Color :</h3>
+                                            <span></span><span></span><span></span>
+                                        </div>
+                                        <a href="#">Buy Now</a>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="imgBX">
+                                        <img src="images/product/google2.PNG" alt="" />
+                                    </div>
+                                    <div class="contentBX">
+                                        <h2>Pixel 4 XL</h2>
+                                        <div class="rom">
+                                            <h3>Variant :</h3>
+                                            <span>64GB</span><span>128GB</span><span>256GB</span>
+                                        </div>
+                                        <div class="color">
+                                            <h3>Color :</h3>
+                                            <span></span><span></span><span></span>
+                                        </div>
+                                        <a href="#">Buy Now</a>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="imgBX">
+                                        <img src="images/product/google3.PNG" alt="" />
+                                    </div>
+                                    <div class="contentBX">
+                                        <h2>Pixel 3 XL</h2>
+                                        <div class="rom">
+                                            <h3>Variant :</h3>
+                                            <span>64GB</span><span>128GB</span><span>256GB</span>
+                                        </div>
+                                        <div class="color">
+                                            <h3>Color :</h3>
+                                            <span></span><span></span><span></span>
+                                        </div>
+                                        <a href="#">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mi">
+                            <div id="sm" class="sm">XIAOMI</div>
+                            <div class="grid same">
+                                <div class="card">
+                                    <div class="imgBX">
+                                        <img src="images/product/mi3.PNG" alt="" />
+                                    </div>
+                                    <div class="contentBX">
+                                        <h2>Mi 11 Ultra</h2>
+                                        <div class="rom">
+                                            <h3>Variant :</h3>
+                                            <span>64GB</span><span>128GB</span><span>256GB</span>
+                                        </div>
+                                        <div class="color">
+                                            <h3>Color :</h3>
+                                            <span></span><span></span><span></span>
+                                        </div>
+                                        <a href="#">Buy Now</a>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="imgBX">
+                                        <img src="images/product/mi4.PNG" alt="" />
+                                    </div>
+                                    <div class="contentBX">
+                                        <h2>Mi 11 Lite</h2>
+                                        <div class="rom">
+                                            <h3>Variant :</h3>
+                                            <span>64GB</span><span>128GB</span><span>256GB</span>
+                                        </div>
+                                        <div class="color">
+                                            <h3>Color :</h3>
+                                            <span></span><span></span><span></span>
+                                        </div>
+                                        <a href="#">Buy Now</a>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="imgBX">
+                                        <img src="images/product/mi1.PNG" alt="" />
+                                    </div>
+                                    <div class="contentBX">
+                                        <h2>Mi 11T</h2>
+                                        <div class="rom">
+                                            <h3>Variant :</h3>
+                                            <span>64GB</span><span>128GB</span><span>256GB</span>
+                                        </div>
+                                        <div class="color">
+                                            <h3>Color :</h3>
+                                            <span></span><span></span><span></span>
+                                        </div>
+                                        <a href="#">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="colorLeft1"></span>
+                <span class="colorRight1"></span>
+                <div class="section3" id="reviews">
+                    <div class="cd">
+                        <h2 id="rv">Clients</h2>
+                        <h3 class="cline_Review">click clients to see review</h3>
+                        <div class="clints_Img">
+                            <div class="imgs">
+                                <img src="images/clients/man5.JPG" />
+                            </div>
+                            <div class="imgs">
+                                <img src="images/clients/man4.JPG" />
+                            </div>
+                            <div class="imgs">
+                                <img src="images/clients/man3.jpg" />
+                            </div>
+                            <div class="imgs">
+                                <img src="images/clients/man2.jpg" />
+                            </div>
+                            <div class="imgs">
+                                <img src="images/clients/man1.jpg" />
+                            </div>
+                        </div>
+                        <div class="test-content">
+                            <div class="clint_Data">
+                                <h3 class="clint_text">What our clients say</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum dignissimos rem perferendis quaerat laudantium porro recusandae unde possimus! Rem, iure voluptates quidem corporis cumque molestiae, qui eligendi rerum veritatis nulla modi magni
+                                    commodi eius sunt numquam praesentium, ut repudiandae ea itaque. Quo, quisquam. Doloribus reiciendis consequuntur non autem sit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="colorLeft2"></span>
+                <span class="colorRight2"></span>
+                <div class="section4">
+                    <div class="about" id="about">
+                        <h2 class="ab">ABOUT</h2>
+                        <div class="cnt">
+                            <div class="team_img"><img src="images/clients/team.jpeg" /></div>
+                            <div class="about_content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum dignissimos rem perferendis quaerat laudantium porro recusandae unde possimus! Rem, iure voluptates quidem corporis cumque molestiae, qui eligendi rerum veritatis nulla modi magni
+                                    commodi eius sunt numquam praesentium, ut repudiandae ea itaque. Quo, quisquam. Doloribus reiciendis consequuntur non autem sit.
+                                </p>
+                                <h3 class="clint_text">abdul-mannan / dev</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="colorLeft3"></span>
+                <span class="colorRight3"></span>
+                <div class="section5">
+                    <div class="contact" id="contact">
+                        <h2 class="ab">CONtact us</h2>
+                        <div class="social_media">
+                            <div class="items">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f  fa-2x">
+              </i>
+                                </a>
+                            </div>
+                            <div class="items">
+                                <a href="https://twitter.com/Mannananxari" target="_blank">
+                                    <i class="fab fa-twitter  fa-2x">
+              </i>
+                                </a>
+                            </div>
+                            <div class="items">
+                                <a href="https://www.instagram.com/themannananxari/" target="_blank">
+                                    <i class="fab fa-instagram  fa-2x">
+              </i>
+                                </a>
+                            </div>
+                            <div class="items">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in  fa-2x">
+              </i>
+                                </a>
+                            </div>
+                            <div class="items">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-pinterest-p  fa-2x">
+              </i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rights">&copy; 2022 m...EMMET | All Rights Reserved</div>
+                    </div>
+                    <script src="script.js"></script>
+</body>
+
+</html>
